@@ -34,6 +34,21 @@ $('.exposure .owl-carousel').owlCarousel({
     }
 });
 
+// Awards Ticker Section
+$(document).ready(function () {
+    $('.ana .owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 30,
+        dots: false,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 8000,
+        autoplaySpeed: 8000,
+        autoplayHoverPause: false
+    });
+});
+
 // Custom Cursor 
 var cursor = $(".cursor"),
     follower = $(".cursor-follower");
